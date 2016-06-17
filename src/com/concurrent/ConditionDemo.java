@@ -5,6 +5,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Condition
+ * 
+ * await方法指：造成当前线程在接到信号或被中断之前一直处于等待状态。 
+ * signal方法指：唤醒一个等待线程。
  *
  * Condition的执行方式，是当在线程1中调用await方法后，线程1将释放锁，并且将自己沉睡，等待唤醒，
  * 线程2获取到锁后，开始做事，完毕后，调用Condition的signal方法，唤醒线程1，线程1恢复执行。
