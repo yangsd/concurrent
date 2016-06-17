@@ -11,12 +11,6 @@ locks包：使用Lock接口为并发编程提供了同步的另外一种替代�
 
 
 ##Executor类构建线程池的静态方法
-     方法	                                   描述
-newCachedThreadPool	                必要时创建新线程，空闲线程会被保留60秒  
-newFixedThreadPool	                该池包含固定数量的线程；空闲线程会一直被保留  
-newSingleThreadExecutor	            只有一个线程的“池”，该线程顺序执行每一个提交的任务  
-newScheduledThreadPool	            用于预定执行而构建的固定线程池，替代java.util.Timer  
-newSingleThreadScheduledExecutor	用于预定执行而构建的单线程“池”  
 
 |    方法                            | 描述                                                  |
 | ---------------------------------- |:-----------------------------------------------------:|
